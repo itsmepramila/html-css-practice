@@ -4,64 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        p{
-            font-size: 50px;
-        }
-        .pTagWithClass{
-            font-size: 30px;
-            background-color: brown;
-           border-top: 3px dotted greenyellow;
-           border-right: 3px double greenyellow;
-           border-left: 3px dashed greenyellow;
-           border-bottom: 3px solid rgb(11, 19, 0);
-           margin: 50px 40px 30px 20px;
-           padding: 50;
-           color: azure;
-           border-radius: 100px;
-           outline: 10px solid gray;
-        }
-        #pTagWithId{
-            background-color: lightcyan;
-
-            font-size: 22px;
-            
-        }
-        .withBackgroundImg{
-            background-image: url(images/sunset.jpeg);
-            height: 400px;
-            width: 400px;
-            color: brown;
-            background-size: cover;
-        }
-        .button{
-            display: inline-block;
-
-            background-color: Blue;
-            color:white;
-            padding: 10px;
-            text-decoration: none;
-            border-radius: 100px;
-            cursor: pointer;
-            transition: all 0.3s ease;
-            
-        }
-
-        .button:hover{
-            
-            transform: scale(1.05);
-            background-color: rgb(63, 63, 255);
-            
-        }
-       .tranlateX:hover{
-        transform: translateX(200px);
-       }
-    </style>
+    <link rel="stylesheet" href="css/style.css">
+   
 </head>
 <body>
     <h1>About Page</h1>
     <a class="button" href="index.html">Index Page</a>
-    <p style="color:aqua; background-color:tomato">This tag is using inline css</p>
+    <a class="button" href="index.html">Home Page</a>
+    <a class="button" href="index.html">Contact Page</a>
+    <a class="button" href="index.html">Detail Page</a>
+    <p style="color:aqua; background-color:tomato; margin-bottom:80px; ">This tag is using inline css</p>
     <p class="pTagWithClass"> Hello from p tag using internal css and class</p>
     <p class="pTagWithClass"> Hello from p tag same class.</p>
 
@@ -102,9 +54,39 @@
 <!-- css ->cascading style sheets 
  
 how to apply css?there are three ways to apply css
-inline css->internal css , ectrenal css
+inline css->internal css , external css
 
 inline eg->attribute pass garxam , style="sabai style"
 css syntax-> selector > property>value
+display:inlline:block combination of inline  and block 
+-stays inline
+   -does not start a new line
+   -takes only content width
+can set width height margin padding
 
+display : none -> keii pani dekhaudaina
+display:flex > it gives flexibility/ flexible box layout
+  -turns an element into  a flexible container.
+  -childrens become flex items
+  default behaiviour:
+    flex-direction:row;
+    justify content: flex-start;
+    align-items:stretch;
+
+
+    output: | item | item | item |
+
+    flex-direction: row | column ;
+    justify-content:flex-start | center | space-between | space-around;
+    align-items:stretch | center | flex-start | flex-end;
+
+    flex-wrap: create responsive layout, telling a flex container whether items should stay on one line 
+    (nowrap, the default) or flow onto multiple lines (wrap) when they run  out of space
+
+Note: flex is usd for 1D design.
+
+display: grid ->it creates 2D layout system
+
+grid-template-columns: 1fr 200px 2fr;
 -->
+

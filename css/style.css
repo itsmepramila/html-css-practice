@@ -1,0 +1,61 @@
+ <style>
+        p{
+            font-size: 50px;
+        }
+        .pTagWithClass{
+            font-size: 30px;
+            background-color: brown;
+           border-top: 3px dotted greenyellow;
+           border-right: 3px double greenyellow;
+           border-left: 3px dashed greenyellow;
+           border-bottom: 3px solid rgb(11, 19, 0);
+           margin: 50px 40px 30px 20px;
+           padding: 50;
+           color: azure;
+           border-radius: 100px;
+           outline: 10px solid gray;
+        }
+        #pTagWithId{
+            background-color: lightcyan;
+
+            font-size: 22px;
+            
+        }
+        .withBackgroundImg{
+            background-image: url(images/sunset.jpeg);
+            height: 400px;
+            width: 400px;
+            color: brown;
+            background-size: cover;
+        }
+        .button{
+            display: inline-block;
+
+            background-color: Blue;
+            color:white;
+            padding: 10px;
+            text-decoration: none;
+            border-radius: 100px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            
+        }
+
+        .button:hover{
+            
+            transform: scale(1.05);
+            background-color: rgb(63, 63, 255);
+            
+        }
+       .tranlateX:hover{
+        transform: translateX(200px);
+       }
+       .flex-box{
+        display: flex;
+        flex-direction: row;
+        gap: 18px;
+          
+    
+        
+       }
+    </style>
