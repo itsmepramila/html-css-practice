@@ -7,22 +7,72 @@
     <style>
         .page{
             display: flex;
-            direction: column;
+            flex-direction: column;
             min-height: 100vh;
+
+            
         }
+        .header{
+            display: flex;
+            justify-content: center;
+            padding: 20px;
+            background-color: azure;
+            
+
+
+        }
+        .navBar{
+            display: flex;
+            justify-content: center;
+            padding: 20px;
+            background-color: beige;
+
+        }
+        .content{
+            flex: 1;
+            display: flex;
+           
+
+        }
+        .sidebar{
+            
+            width: 220px;
+            background-color: bisque;
+
+        }
+        .main{
+            flex: 1;
+            background-color: rgba(255, 230, 192, 0.729);
+        }
+        .footer{
+            background-color: whitesmoke;
+            padding: 20px;
+        }
+        .style-ul{
+            list-style-type: none;
+        }
+
     </style>
 </head>
 <body>
     <div class="page">
-        <div class="header">h</div>
-        <nav class="navBar">n</nav>
+        <div class="header">This is my header</div>
+        <nav class="navBar">NavBar</nav>
         <div class="content">
-            <aside class="sidebar">s</aside>
-            <main class="main">m</main>
-        </div>
-        <div class="footer"></div>
+            <aside class="sidebar">
+                <ul class="style-ul">
+                    <li>Home1</li>
+                    <li>Home2</li>
+                    <li>Home2</li>
+                    <li>Home3</li>
+                </ul>
+            </aside>
+            <main class="main">Main</main>
+            
+        <div class="footer">F</div>
 
     </div>
     
 </body>
 </html>
+
